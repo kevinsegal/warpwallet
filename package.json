@@ -1,0 +1,30 @@
+{
+  "name": "warpwallet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WarpWallet — a security-first web wallet, escrow, merchant gateway, and no-code smart-contract studio for WarpCoin (WARP).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@noble/curves": "1.9.7",
+    "@noble/hashes": "1.8.0",
+    "next": "16.2.9",
+    "qrcode": "1.5.4",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.1",
+    "@types/node": "22.19.21",
+    "@types/qrcode": "1.5.5",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.1",
+    "typescript": "5.7.3"
+  }
+}
